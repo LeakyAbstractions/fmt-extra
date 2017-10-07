@@ -1,0 +1,27 @@
+{
+  "name": "fmt-extra",
+  "version": "1.5.0",
+  "description": "A tiny C string formatting library ~ Formatters",
+  "repo": "LeakyAbstractions/fmt-extra",
+  "license": "LGPL",
+  "src": [
+    "f_ansi.c",
+    "f_ansi.h",
+    "f_bytes.c",
+    "f_bytes.h",
+    "f_time.c",
+    "f_time.h",
+    "f_timespec.c",
+    "f_timespec.h"
+  ],
+  "keywords": [
+    "formatting",
+    "library",
+    "c",
+    "string",
+    "printf"
+  ],
+  "dependencies": {
+    "LeakyAbstractions/fmt": "*"
+  }
+}
